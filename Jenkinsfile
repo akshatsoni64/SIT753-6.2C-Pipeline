@@ -39,7 +39,7 @@ pipeline {
             post{
                 success{
                     emailext attachLog: true,
-                    to: "s223712753@deakin.edu.au",
+                    to: "akshatsoni64@gmail.com",
                     subject: "Testing Status Email",
                     body: "Unt and Integration testing successfully completed!"
                 }
@@ -61,7 +61,7 @@ pipeline {
             post{
                 success{
                     emailext attachLog: true,
-                    to: "s223712753@deakin.edu.au",
+                    to: "akshatsoni64@gmail.com",
                     subject: "Security Scan Status Email",
                     body: "Security scan was successful!"                    
                 }
@@ -88,7 +88,7 @@ pipeline {
             post{
                 success{
                     emailext attachLog: true,
-                    to: "s223712753@deakin.edu.au",
+                    to: "akshatsoni64@gmail.com",
                     subject: "Staging Test Status Email",
                     body: "Unt and Integration testing successfully completed on Staging Environment!"
                 }
