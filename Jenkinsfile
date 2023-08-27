@@ -41,7 +41,7 @@ pipeline {
                     emailext attachLog: true,
                     to: "s223712753@deakin.edu.au",
                     subject: "Testing Status Email",
-                    body: "Unt and Integration testing successfully completed!",
+                    body: "Unt and Integration testing successfully completed!"
                 }
             }
         }
