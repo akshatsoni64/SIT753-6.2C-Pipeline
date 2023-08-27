@@ -7,7 +7,7 @@ pipeline {
                 DIRECTORY_PATH = '/dev'
             }
             steps {
-                echo 'Fetcing the source code from ${env.DIRECTORY_PATH}'
+                echo "Fetcing the source code from ${env.DIRECTORY_PATH}"
                 echo 'Compiling the code and generating artifacts using Maven...'
                 sleep 5
                 echo 'Done'
