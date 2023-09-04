@@ -38,10 +38,7 @@ pipeline {
             }
             post{
                 success{
-                    emailext attachLog: true,
-                    to: "akshatsoni64@gmail.com",
-                    subject: "Testing Status Email",
-                    body: "Unt and Integration testing successfully completed!"
+                    emailext attachLog: true, body: "Unit and Integration testing successfully completed!", subject: "Testing Status Email", to: 's223712753@deakin.edu.au'
                 }
             }
         }
@@ -60,10 +57,7 @@ pipeline {
             }
             post{
                 success{
-                    emailext attachLog: true,
-                    to: "akshatsoni64@gmail.com",
-                    subject: "Security Scan Status Email",
-                    body: "Security scan was successful!"                    
+                    emailext attachLog: true, body: "Security scan was successful!", subject: "Security Scan Status Email", to: 's223712753@deakin.edu.au'
                 }
             }
         }
@@ -87,10 +81,7 @@ pipeline {
             }
             post{
                 success{
-                    emailext attachLog: true,
-                    to: "akshatsoni64@gmail.com",
-                    subject: "Staging Test Status Email",
-                    body: "Unt and Integration testing successfully completed on Staging Environment!"
+                    emailext attachLog: true, body: "Unit and Integration testing successfully completed on Staging Environment!", subject: "Staging Test Status Email", to: 's223712753@deakin.edu.au'
                 }
             }
         }
