@@ -87,7 +87,7 @@ pipeline {
         }
         stage('Deploy to Production') {
             steps {
-                echo 'Deploying the application to Production App Engine Instance'
+                echo 'Deploying the application to Production App Engine Instance.'
             }
         }
     }
